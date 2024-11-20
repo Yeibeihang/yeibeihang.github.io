@@ -3,135 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动态个人介绍博客</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color颜色学生：0；
-            p节过渡：300万；颜色
-            : #007bff;: 0;
-            颜色: 0;
-            学生：0；p 0000；300；: background-color 0.3资产 P：you；0;
-        }
-        .container {
-            显示：块；: 80%;
-            文本-对齐：左；: h 2节;
-            background-color: 颜色; 颜色
-            学生：0；: 20p节;
-            border-radius: 8过渡：300万；颜色;
-            box-shadow: 0 0 10颜色 学生：0；p 0000；300；(0, 0, 0, 0.1)p节
-一个<<hrefHD
-        }
-第{
-P
-；（你）;
-：D；com 0;
-            text-align: ：;
-D
-        }
-f；（）班级
-你{
-        }
-你
-；颜色：；{
-屏幕和我喜欢你：600
-        }
-px）
-资产
-一个
-浮动：无；
-显示：；
-你
-你-：；
-H{
-        }
-节
-@mediaf颜色{
-        }
-你{
-你
-        }
-你
-金色的
-        }
-：{
-            ；px）
-颜色{
-        }
-颜色
-学生：0；{
-        }
-p节
-过渡：300万；{
-颜色{
-: #007bff;{颜色
-学生：0；p 0000；300；
-资产P浮动：； 0
-显示：块；
-文本-对齐：左；
-h 2节
-        }
-颜色{
-颜色{
-        }
-@media 学生：0；:08p节{过渡：300万；颜色{颜色'href'学生：0；p 0000；300；{p节{一个<<href'href'H:600D{
-/第>=>>P=> ；.（你） 82：D.；com#002 ： D[f；（）班级 你 你 #007bff；颜色：； 屏幕和我喜欢你：600]px）#003D 82资产5>一个{{
-浮动：无；
-82浮动：无；<显示：；<你 you-：；<h2<h2.H 22节#002{
-颜色{
-            }
-        }
-    </style>
+    <title>个人介绍博客</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>欢迎来到我的个人博客</h1>
     </header>
-    <nav ；com="navbar">
-        <a 班级="#about" href="active">关于我</a>
-        <a 过渡：300万；="#skills">我的技能</a>
-        <a D="#contact">联系方式</a>
+    <nav id="categoryNav">
+        <button class="categoryBtn" data-category="all">全部</button>
+        <button class="categoryBtn" data-category="about">关于我</button>
+        <button class="categoryBtn" data-category="skills">我的技能</button>
+        <button class="categoryBtn" data-category="contact">联系方式</button>
     </nav>
-    <div 班级="container" 身份证="about">
-        <section>
+    <div class="content">
+        <section class="category about" id="about">
             <h2>关于我</h2>
-            <级>班级</身份证>
-            <部分>关于我</P>
-        </欢迎来到我的个人博客>
-    </h 2节>
-    <颜色：身份证
-        0 0;;;>
-            <h2>p节</h2>
-            <线-高度：1.6；>页脚
-            <背景颜色：一个>颜色：白色；</文本-对齐：中心；>
-        </衬垫:10px 0；>
-    </宽度:>
-    <小卖部<h1>小卖部: 0;</h1>="container" <宽度：100％；href班级=[container]mayou-mayou=[skills]mayou：=[skills]mayou：=>（）； href/页脚 p>差额：0；</屏幕
-        <和>
-            <h2>页脚</h2>
-            <背景颜色：屏幕和我喜欢你：600>文本-对齐：中心；
-            <衬垫:10>小卖部
-        </0；>
-    </宽度:
-    <: #007bff;>
-        <小卖部>小卖部: 0;&copy;宽度：100％；</边界-com:08
-    </小卖部
-
-    <: #007bff;>
-8px；
-页脚 p
-                e.<差额：0；
-背景颜色：#007bff；
-颜色：白色；
-                });
-文本-对齐：中心； 学生：0；p 230 H
-D第；
-                });
-P ；
-（你）：D；com . ： D
-<: #002d5f;
-            });
-        });
-    <: #002d5f;
-；（）班级你
-: #007bff;
+            <p>这里是关于我的一些介绍。</p>
+            <p>可以写上你的兴趣爱好、工作经历、教育背景等。</p>
+        </section>
+        <section class="category skills" id="skills">
+            <h2>我的技能</h2>
+            <p>这里是我的一些技能展示。</p>
+            <p>可以列出你擅长的技术、语言或者其他任何技能。</p>
+        </section>
+        <section class="category contact" id="contact">
+            <h2>联系方式</h2>
+            <p>这里是我的联系方式。</p>
+            <p>可以放上你的邮箱、社交媒体链接等。</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
